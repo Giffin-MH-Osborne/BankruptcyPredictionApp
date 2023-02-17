@@ -1,4 +1,4 @@
 Flask
 pycaret
 pandas
-
+numpy==1.21.0
