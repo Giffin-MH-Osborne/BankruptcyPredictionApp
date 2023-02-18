@@ -887,3 +887,9 @@
                                         random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
 2023-02-17 11:22:49,113:INFO:Checking exceptions
 2023-02-17 11:22:49,113:INFO:Preloading libraries
+2023-02-17 19:59:14,034:INFO:Initializing load_model()
+2023-02-17 19:59:14,036:INFO:load_model(model_name=models/Final_RF_Model, platform=None, authentication=None, verbose=True)
+2023-02-17 19:59:54,926:INFO:Initializing load_model()
+2023-02-17 19:59:54,926:INFO:load_model(model_name=models/Final_RF_Model, platform=None, authentication=None, verbose=True)
+2023-02-17 20:03:08,747:INFO:Initializing load_model()
+2023-02-17 20:03:08,748:INFO:load_model(model_name=models/Final_RF_Model, platform=None, authentication=None, verbose=True)
