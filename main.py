@@ -26,9 +26,9 @@ def predict():
     label = int(prediction.Label[0])
     result = ""
     if(bool(label)):
-        result="go Bankrupt"
-    else:
         result="not go Bankrupt"
+    else:
+        result="go Bankrupt"
 
     prediction=int(prediction.Label[0])
     return render_template('index.html', pred='The model predicts this company will {}'.format(result), cols=cols)
