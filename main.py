@@ -25,7 +25,7 @@ def predict():
     prediction=predict_model(model, data=data_unseen, round=0)
     label = int(prediction.Label[0])
     result = ""
-    if(bool(label)):
+    if(not bool(label)):
         result="not go Bankrupt"
     else:
         result="go Bankrupt"
